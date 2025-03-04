@@ -1,0 +1,105 @@
+{
+    "xpreUniqueId": "1231",
+  "ruleApplication": "Correspondent-Comparison",
+    "fullEntityName": "ruleEngine.entity.LoanRequest",
+    "entityState": {
+        "loanId": "0105971279",
+        "type": "CT",
+        "loanType": "VA",
+        "amortType": "Fixed",
+        "purpose": "Purchase",
+        "propertyType": "Single Family",
+        "occupancy": "Investment",
+        "channel": "Correspondent",
+        "division": "Structured Products",
+        "numberOfBorrowers": "2",
+        "attachmentType": "Detached",
+        "propertyState": "CA",
+        "state": "CA",
+        "documentationType": "Full",
+        "balloon": "false",
+        "commitNumber": "",
+        "dashLoanDocuments": {
+            "mortgageDeedOfTrust": [
+                {
+                    "uniqueDocumentId": "43453543534mdot1"
+                }
+            ],
+            "floodCertificate": [
+                {
+                    "uniqueDocumentId": "123"
+                }
+            ],
+             "floodInsurance": [
+                {
+                    "uniqueDocumentId": "123",
+                    "nFIPPolicynumber":"12345"
+                }
+            ],
+            "homeownersLiabilityInsurance": [
+                {
+                    "uniqueDocumentId": "123",
+                    "hazardInsurancePolicyNumber":"123"
+                }
+            ],
+            "doc1003Urla": [
+                {
+                    "uniqueDocumentId": "43453543534do1",
+                    "borrower1CurrentEmploymentNotApplicable": "Y",
+                    "borrower2CurrentEmploymentNotApplicable": "Y",
+                    "borrower1HomePhone": "Y",
+                    "borrower1CellPhone": "Y",
+                    "borrower1MaritalStatus": "seprated",
+                    "borrower1Ethnicity": "Hispanic",
+                    "borrower2Ethnicity": "y",
+                    "borrower1Race": "",
+                    "borrower2Race": "",
+                    "borrower1Sex": "",
+                    "borrower2Sex": "",
+                    "signature1Bdate": "09/27/2024",
+                    "signature2Bdate": "09/27/2024",
+                    "mortgageType": "USDA-RD",
+                    "borrower2MaritalStatus": "Seprated",
+                    "loanOfficeSignature": "Y",
+                    "loanTermMonths": "12",
+                    "b1DeclarationsAInterestInAPropertyInTheLast3Yrs": "",
+                    "b1DeclarationsATypeOfPropertyOwned": "SHdd",
+                    "b2DeclarationsATypeOfPropertyOwned": "secondhome",
+                    "b2DeclarationsD2AppliedForCredit": "asdt",
+                    "borrower2DOb": "09/27/2009"
+                }
+            ]
+        },
+        "systemValue": {
+            "baseLoanAmount": "804,00",
+            "subProgram": "Partial Claim",
+            "taxParcelNumber": "Sample parcel",
+            "addressLineText": "Sample Street",
+            "cityName": "Sample City",
+            "stateCode": "Sample State",
+            "postalCode": "Sample Zip",
+            "accountName": "Test Account",
+            "b2DeclarationA1InterestInPropertyLast3Yrs": "not",
+            "b1DeclarationA1InterestInPropertyLast3Yrs": "yes",
+            "b1DeclarationA1TypeOfPropertyOwned": "sh",
+            "b2DeclarationA1TypeOfPropertyOwned": "sh",
+            "b2ApplyingForOtherCreditNotDisclosed": "asd",
+            "b2DOb": "09/28/2009",
+            "mixedUseProperty": "yes",
+            "b2borrowerCurrentResidencyType": "yer",
+            "b1borrowerCurrentResidencyType": "ty",
+            "b1EmploymentStartDate": "09/28/2009",
+            "b1SexCollected": "yes",
+            "rEO1City": "city",
+            "b2EmploymentStartDate": "09/28/2001",
+            "rEO1State": "state",
+            "rEO1HouseNumberStreetName": "hst",
+            "rEO1Zip": "zip",
+            "floodPolicyNumber":"",
+            "floodZoneArea": "Z",
+            "hazardInsurancePolicyNumber":"1234"
+        },
+        "ruleExecutionDetails": []
+    },
+    "enabledMetrix": true
+}
