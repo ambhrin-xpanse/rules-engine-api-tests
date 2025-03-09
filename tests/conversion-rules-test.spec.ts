@@ -1,6 +1,7 @@
 import axios, { AxiosResponse } from 'axios';
 import dotenv from 'dotenv';
 import { test, expect } from '@playwright/test';
+import { readExcelFile } from '../helpers/excel-reader';
 dotenv.config();
 
 test('Test: Execute one Conversion Rule', async () => {
@@ -26,4 +27,13 @@ let response: AxiosResponse<any, any>;
   console.log('API response data:', response.data);
   expect(response.status).toBe(200);
   expect(response.data).toBeDefined();
+});
+
+test('Test: Read Excel', async () => {
+  // Example usage
+  const filePath = '../test-data/comparisson-rules.xlsx';
+  console.log('Reading Excel file:', filePath);
+  // Call the function to read and print the Excel file
+  // This will print the data to the console
+  readExcelFile(filePath);
 });
