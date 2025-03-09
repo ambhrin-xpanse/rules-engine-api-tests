@@ -16,19 +16,28 @@
   },
   "homepage": "https://github.com/ambhrin-xpanse/rules-engine-api-tests#readme",
   "devDependencies": {
-    "@playwright/test": "^1.50.1",
-    "@types/node": "^22.12.0",
-    "chai": "^5.2.0",
     "@eslint/js": "^9.14.0",
     "@faker-js/faker": "^9.3.0",
+    "@playwright/test": "^1.50.1",
     "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.12.0",
+    "@types/xlsx": "^0.0.35",
+    "@types/xml2js": "^0.4.14",
     "@typescript-eslint/eslint-plugin": "^8.13.0",
     "@typescript-eslint/parser": "^8.13.0",
-    "axios": "^1.7.7",
+    "allure-playwright": "^3.2.0",
+    "axios": "^1.8.1",
+    "chai": "^5.2.0",
     "eslint": "^9.14.0",
     "globals": "^15.12.0",
     "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
     "typescript": "^5.6.3",
-    "typescript-eslint": "^8.13.0"
+    "typescript-eslint": "^8.13.0",
+    "xlsx": "^0.18.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.758.0",
+    "xml2js": "^0.6.2"
   }
 }
